@@ -1,0 +1,10 @@
+:root { --max: 820px; }
+* { box-sizing: border-box; }
+body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
+main { max-width: var(--max); margin: 2rem auto; padding: 0 1rem; }
+header { text-align: center; margin-bottom: 2rem; }
+h1 { margin: 0 0 .25rem 0; }
+.subtitle { margin: 0; color: #555; }
+section { margin: 2rem 0; }
+section h2 { margin: 0 0 .5rem 0; border-bottom: 1px solid #eee; padding-bottom: .25rem; }
+footer { margin-top: 3rem; color: #666; font-size: .9rem; text-align: center; }
